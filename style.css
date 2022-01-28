@@ -1,0 +1,55 @@
+body{
+    background: #f2f2f2;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background: rosybrown;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand{
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.btn{
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+    background: rosybrown;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    width: 100%;
+    /* margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.btn:hover{
+    background:rgb(129, 56, 56) ;
+}
+
+.card{
+    width: 50%;
+    margin: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.card-body{
+    width: 100%;
+}
+
+.card-body > p{
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
